@@ -1,0 +1,7 @@
+spring:
+  config:
+    activate:
+      on-profile: loc
+
+logging:
+  config: classpath:log4j2-loc.xml
